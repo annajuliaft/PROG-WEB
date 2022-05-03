@@ -7,6 +7,8 @@ header{
    background-color: #DBB4AD;}
 #tudosobrefilmes{
     background-color: #DBB4AD;
-    text-align: center;}
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 10px 0;}
 h1{
      font-family: arial; color : #AA4465; }
