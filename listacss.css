@@ -5,3 +5,11 @@ header{
     border-radius: 10px;
   background-color: white;}
 
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+header li{
+    list-style: none;
+}
+
