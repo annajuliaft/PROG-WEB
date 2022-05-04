@@ -12,3 +12,6 @@ p {font-family: arial; font-size: 150%; color : #451531}}
 div {
     min-height:5cm
 }
+footer{  padding: 0 40px;
+    border-radius: 10px; 
+    background-color: #DBB4AD;}
