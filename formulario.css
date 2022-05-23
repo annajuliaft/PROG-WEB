@@ -32,7 +32,13 @@ input, select, textarea, button {
     color: #AA4465;
     display: block;}
 
-fieldset.grupo .campo {
+.check {
+    margin-bottom: 0.2em;
+    color: #AA4465;
+    display: block;}
+
+
+fieldset.grupo .campo .check{
     float:  left;
     margin-right: 1em;}
 
