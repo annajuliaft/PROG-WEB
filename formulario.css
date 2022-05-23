@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;}
+html{
+    justify-content: center;}
 
 body{
     height: auto;
@@ -8,7 +10,6 @@ body{
     font-family: sans-serif;
     font-size: 1em;
     justify-content: center;
-    text-align: center;
     margin-top: 10%;
     margin-left: 50px;
 }
@@ -36,9 +37,7 @@ input, select, textarea, button {
     display: block;}
 
 .check {
-    margin-bottom: 0.2em;
-    color: #AA4465;
-    display: block;}
+    color: #AA4465;}
 
 
 fieldset.grupo .campo .check{
