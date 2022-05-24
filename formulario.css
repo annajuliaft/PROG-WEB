@@ -28,6 +28,7 @@ form{
 }
 .input{
     justify-content: center;
+    border: 1px solid  #AA4465;
 }
 
 input, select, textarea, button {
