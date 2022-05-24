@@ -28,7 +28,6 @@ form{
 }
 .input{
     justify-content: center;
-    border: 1px solid  #AA4465;
 }
 
 input, select, textarea, button {
@@ -76,7 +75,7 @@ fieldset.grupo .campo {
 
 
 .campo input:focus, .campo select:focus, .campo textarea:focus {
-    background: #FFFDF2 ;
+    background: #AA4465 ;
 }
 
 
