@@ -33,7 +33,7 @@ form{
 input, select, textarea, button {
     font-family: sans-serif;
     font-size: 1em;
-    color:  #AA4465;
+    color:   #AA4465;
     border-radius: 5px;
 }
 
@@ -75,7 +75,7 @@ fieldset.grupo .campo {
 
 
 .campo input:focus, .campo select:focus, .campo textarea:focus {
-    background: #AA4465 ;
+    background: #FFFDF2 ;
 }
 
 
