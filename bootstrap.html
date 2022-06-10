@@ -1,9 +1,10 @@
-<!doctype html> 
-<html lang="en">  
-    <head>  
-        <meta charset="utf-8">  
-        <meta name="viewport" content="width=device-width, initial-scale=1">  
-      <title>OPINIÃO</title>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OPINIÃO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <body>
       <div class="container-lg">
       <center>
@@ -13,19 +14,18 @@
       </div>
       <br> 
       <form>  
-      <div class="container-sm">
-        <div class="row">
-          <div class="col-lg-3"> 
-              <center>
-               <label>Nome</label>
-               <input type="text" name="nome" id="nome" required>
-               <label>Idade</label>
-               <input type="text" name="idade" id="idade" required>
-              </center> 
-            </div>
-            <br>
-        </fieldset> 
-        <div class="mb-3 row row-cols-8 row-cols-lg-8 g-4 g-lg-6">
+         <div class="container-sm">
+           <div class="row">
+             <div class="col-lg-3">
+               <input type="text" class="form-control" placeholder="First name" aria-label="First name" required>
+         </div>
+         <div class="col-sm-6">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required>
+          </div>
+          </div>
+          </div>
+          <br>
+          <div class="mb-3 row row-cols-8 row-cols-lg-8 g-4 g-lg-6">
           <div class="col-md-12">  
             <h2 style="color : #AA4465">Filme preferido do site:</h2> 
             <select id="Filme preferido do site" required>
@@ -36,16 +36,17 @@
                 <option>Mulher-Maravilha</option>
             </select>
           </div>
-        </div>  
-        <br>
-        <center>
-          <h2 style="color : #AA4465">Deixe aqui sua opinião sobre algum filme</h2>
-          <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
-        </center>
-        <br>
-        <div class="d-grid gap-2 col-md-3 mx-auto ">
-          <button class="botao" type="submit" onsubmit="">Enviar</button> 
-        </div>
-      </form>
+          </div>  
+          <br>
+          <center>
+            <h2 style="color : #AA4465">Deixe aqui sua opinião sobre algum filme</h2>
+            <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+          </center>
+          <br>
+          <br>
+          <div class="d-grid gap-2 col-md-3 mx-auto ">
+            <button class="botao" type="submit" onsubmit="">Enviar</button> 
+          </div>
+          </form>
     </body>
 </html>
