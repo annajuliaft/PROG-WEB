@@ -3,53 +3,76 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>OPINIÃO</title>
+    <title>FILMES</title>
     <link rel="icon" href="https://st3.depositphotos.com/30226412/36221/v/950/depositphotos_362215704-stock-illustration-initial-letter-logo-logo-vector.jpg?forcejpeg=true" type="image/png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+      body { background-color:  #FFFDF2;}
+      img { width: 100%; height: 250px;  }
+      h2 {font-family: arial; color : #DBB4AD; font-size:150%; }
+      p {font-family: arial; font-size: 100%; color : #451531}
+    </style>
+  </head>
     <body>
-      <div class="container-lg">
-      <center>
-       <h1 style="color : #AA4465">Opiniões sobre os filmes</h1>
-       <link rel="stylesheet" href="formulario.css"> 
-      </center> 
-      </div>
-      <br> 
-      <form> 
-        <center>
-         <div class="container-sm">
-           <div class="row">
-             <div class="col-lg-3">
-               <input type="text" class="form-control" placeholder="Nome" aria-label="Nome" required>
-             </div>
-             <div class="col-sm-6">
-               <input type="text" class="form-control" placeholder="email" aria-label="email" required>
-             </div>
-           </div>
-         </div>
-        </center>
-          <br>
-          <div class="mb-3 row row-cols-8 row-cols-lg-8 g-4 g-lg-6">
-            <div class="col-md-12">  
-              <h2 style="color : #AA4465">Filme preferido do site:</h2> 
-              <select id="Filme preferido do site" required>
-                 <option selected disabled value="">Selecione</option>
-                 <option>Homem-Aranha:Sem volta pra casa</option>
-                 <option>Ainda estou aqui</option>
-                 <option>A escolha perfeita 3</option>
-                 <option>Mulher-Maravilha</option>
-              </select>
-            </div>
-          </div>  
-          <br>
+      <div class="container-sm">
+        <section>	  
           <center>
-            <h2 style="color : #AA4465">Deixe aqui sua opinião sobre algum filme</h2>
-            <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+             <h1 style="color : #AA4465">Tudo sobre filmes</h1>
           </center>
-          <br>
-          <br>
-          <div class="d-grid gap-2 col-md-3 mx-auto ">
-            <button class="botao" type="submit" onsubmit="">Enviar</button> 
+             <h2>Link pra outras páginas:</h2> 
+             <ul>
+                <li><a href="https://annajuliaft.github.io/prog-web/lista.html">Opiniões do público</a></li>
+                <li><a href="https://annajuliaft.github.io/prog-web/citaçoes.html">Citações de filmes</a></li>
+                <li><a href="https://annajuliaft.github.io/prog-web/sinopse.html">Sinopses de filmes</a></li>
+                <li><a href="https://annajuliaft.github.io/prog-web/categoria.html">Categorias</a></li>     
+                <li><a href="https://annajuliaft.github.io/prog-web/filmes_preferidos.html">Filmes preferidos</a></li>
+             </ul>
+      </div>    
+      <div class="container overflow-hidden">
+        <center>
+          <h2 style="color : #AA4465; font-size: 200%; width:100%; height: 50px;">Filmes</h2>
+        </center>
+        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+          <div class="col">
+              <img src="https://i0.wp.com/www.popsfera.com.br/wp-content/uploads/2021/11/BB266E4D-ECD6-474B-98A0-9E40077732B7.jpeg?resize=800%2C1000&ssl=1" class="img-fluid" alt="home-aranha">
+              <div class="p-3 border bg-light">Homem-Aranha:Sem volta pra casa</div>
           </div>
-          </form>
+          <div class="col">
+              <img src="https://br.web.img3.acsta.net/pictures/22/01/13/10/10/2132032.jpg" class="img-fluid" alt="ainda estou aqui">             
+              <div class="p-3 border bg-light">Ainda estou aqui</div>
+          </div>
+          <div class="col">
+              <img src="https://br.web.img3.acsta.net/pictures/17/11/07/12/02/1488296.jpg" class="img-fluid" alt="a escolha perfeita 3">
+              <div class="p-3 border bg-light">A escolha perfeita 3</div>
+          </div>
+          <div class="col">
+              <img src="https://img.elo7.com.br/product/zoom/190AC08/poster-filme-mulher-maravilha-infantil.jpg" class="img-fluid" alt="mulher-maravilha">
+              <div class="p-3 border bg-light">Mulher-Maravilha</div>
+          </div>
+          <div class="col">
+              <img src="https://br.web.img3.acsta.net/pictures/20/11/23/14/35/4981975.jpg" class="img-fluid" alt="como se fosse a primeira vez">
+              <div class="p-3 border bg-light">Como se fosse a primeira vez</div>
+          </div>
+          <div class="col">
+              <img src="https://upload.wikimedia.org/wikipedia/pt/9/97/BarbieEscola.jpg" class="img-fluid" alt="barbie">
+              <div class="p-3 border bg-light">Barbie:Escola de princesas</div>
+          </div>
+          <div class="col">
+              <img src="https://play-lh.googleusercontent.com/JQKfopRtWqyD1cUXjx4V00qLnKecgKlSTS6sL0YX1T0H4bzyOK8SxdQIUbZ6NTsKfkBm" class="img-fluid" alt="como eu era antes de voce">
+              <div class="p-3 border bg-light">Como eu era antes de você</div> 
+          </div>
+          <div class="col">
+               <img src=" https://cinemacomrapadura.com.br/imagens/2014/12/20141203-principal-ccr2.png" class="img-fluid" alt="cinderela">
+               <div class="p-3 border bg-light">Cinderela</div>   
+          </div>
+          <div class="col">
+              <img src="https://lumiere-a.akamaihd.net/v1/images/image_46443ba4.jpeg?region=0,0,540,810&width=480" class="img-fluid" alt="cruella">
+              <div class="p-3 border bg-light">Cruella</div>           
+          </div>
+          <div class="col">
+            <img src="https://br.web.img2.acsta.net/c_310_420/pictures/19/04/26/17/30/2428965.jpg" class="img-fluid" alt="vingadores">
+            <div class="p-3 border bg-light">Vingadores</div>   
+          </div>
     </body>
-</html>
+</html>    
+        
